@@ -17,33 +17,35 @@ const About = () => {
                             <img src="assets/img/images/img2.jpg" className="img-fluid" alt="" />
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <h3>UI/UX &amp; Graphic Designer</h3>
+                            <h3>Lamp &amp; Full Stack Developer</h3>
                             <p className="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                            I like building new stuff and work with other people – nothing really interesting is ever built alone!   <span className=""><b>~ Himanshu</b></span>
                             </p>
                             <div className="row">
                                 <div className="col-lg-6">
                                     <ul>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 October 1999</span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://himanshuthedeveloper.github.io/">himanshuthedeveloper.github.io</a></span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9625911567</span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New Delhi, India</span></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
                                     <ul>
                                         <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                                         <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>himanshu32301@gmail.com</span></li>
                                         <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                     </ul>
                                 </div>
                             </div>
+
+                            <p>I was born in 1999. I live in Delhi and work in Delhi or Noida as a Web Developer. I’ve been a web developer for more than 1 years. I’ve mostly worked with PHP, Javascript and some frontend as well as backend frameworks.</p>
                             <p>
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                            To pursue a challenging and aspiring career where I can use my technical and Organizational skills, add value to the organization, and self-growth by holding higher and higher responsibilities.
                             </p>
+
+
                         </div>
                     </div>
 
@@ -121,6 +123,14 @@ const About = () => {
                                 </div>
                             </div>
 
+                            
+                            <div className="progress">
+                                <span className="skill">React Js <i className="val">60%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div className="col-lg-6">
@@ -133,14 +143,21 @@ const About = () => {
                             </div>
 
                             <div className="progress">
-                                <span className="skill">WordPress/CMS <i className="val">90%</i></span>
+                                <span className="skill">Laravel <i className="val">80%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div className="progress">
+                                <span className="skill">Jquery <i className="val">80%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
 
                             <div className="progress">
-                                <span className="skill">Photoshop <i className="val">55%</i></span>
+                                <span className="skill">Next Js <i className="val">50%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>

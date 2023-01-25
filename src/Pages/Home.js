@@ -22,10 +22,10 @@ function Home() {
                             <Link className="nav-link" to="/resume">Resume</Link>
                         </li>
                         <li>
-                            <Link className="nav-link" to="/home">Services</Link>
+                            <Link className="nav-link" to="/services">Services</Link>
                         </li>
                         <li>
-                            <Link className="nav-link" to="/home">Portfolio</Link>
+                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
                             <Link className="nav-link" to="/home">Contact</Link>

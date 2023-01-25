@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
-
 const Topbar = () => {
 
     return (
         <header id="header" className="header-top">
         <div className="container">
-
-        <h1><a href="index.html">Himanshu Singh</a></h1>
+        <h1><Link to="/">Himanshu Singh</Link></h1>
         <h2>I'm a passionate <span>Web Developer</span> from India</h2>
-
         <nav id="navbar" className="navbar">
             <ul>
                 <li>
@@ -21,10 +18,10 @@ const Topbar = () => {
                     <Link className="nav-link" to="/resume">Resume</Link>
                 </li>
                 <li>
-                    <Link className="nav-link" to="/home">Services</Link>
+                    <Link className="nav-link" to="/services">Services</Link>
                 </li>
                 <li>
-                    <Link className="nav-link" to="/home">Portfolio</Link>
+                    <Link className="nav-link" to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
                     <Link className="nav-link" to="/home">Contact</Link>
